@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/test_PM/static/css/main.2dbdeb50.css",
+    "main.js": "/test_PM/static/js/main.bbac39d8.js",
+    "static/media/Footer.png": "/test_PM/static/media/Footer.c86023cb9f2f234d5a44.png",
+    "static/media/no_photo.png": "/test_PM/static/media/no_photo.bf071aaeb50fce784f9c.png",
+    "static/media/Header.png": "/test_PM/static/media/Header.713b0c30d951b16ee733.png",
+    "static/media/group.svg": "/test_PM/static/media/group.278c32165740b24d01b9.svg",
+    "static/media/photo.svg": "/test_PM/static/media/photo.243d9ce6ef3823316b8e.svg",
+    "static/media/glyph_network.svg": "/test_PM/static/media/glyph_network.3c501274ea3a2624fb4914df65dd6685.svg",
+    "static/media/students.svg": "/test_PM/static/media/students.655560d646d6ef5784f5.svg",
+    "static/media/united-kingdom.svg": "/test_PM/static/media/united-kingdom.29bb88e755f3c3ccebe9.svg",
+    "static/media/pin.svg": "/test_PM/static/media/pin.b15535d7d08d61b262a8.svg",
+    "static/media/pin_black.svg": "/test_PM/static/media/pin_black.537aab7c28d79817ba57.svg",
+    "static/media/heart.svg": "/test_PM/static/media/heart.4232ec4f729522e515ca613f6ec4351e.svg",
+    "static/media/zoom.svg": "/test_PM/static/media/zoom.e922a74f03e100bde9c7.svg",
+    "index.html": "/test_PM/index.html",
+    "static/media/russia.svg": "/test_PM/static/media/russia.33820f463121c4570da2.svg",
+    "static/media/spain.svg": "/test_PM/static/media/spain.331867b03069317743f6.svg",
+    "static/media/germany.svg": "/test_PM/static/media/germany.75c522dd38a4b9fe8860.svg",
+    "static/media/poland.svg": "/test_PM/static/media/poland.3311fa60d34f186b6664.svg",
+    "static/media/ukraine.svg": "/test_PM/static/media/ukraine.3cf0278a2ef4d28270c7.svg",
+    "main.2dbdeb50.css.map": "/test_PM/static/css/main.2dbdeb50.css.map",
+    "main.bbac39d8.js.map": "/test_PM/static/js/main.bbac39d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2dbdeb50.css",
+    "static/js/main.bbac39d8.js"
+  ]
+}
