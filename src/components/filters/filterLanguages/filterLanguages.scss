@@ -1,0 +1,82 @@
+.en.languages-block__label {
+    background: url('../../../resources/icon/united-kingdom.svg') 0 50% no-repeat;
+    padding: 0 0 0 30px;
+}
+
+.ru.languages-block__label {
+    background: url('../../../resources/icon/russia.svg') 0 50% no-repeat;
+    padding: 0 0 0 30px;
+}
+
+.ua.languages-block__label {
+    background: url('../../../resources/icon/ukraine.svg') 0 50% no-repeat;
+    padding: 0 0 0 30px;
+}
+
+.de.languages-block__label {
+    background: url('../../../resources/icon/germany.svg') 0 50% no-repeat;
+    padding: 0 0 0 30px;
+}
+
+.pl.languages-block__label {
+    background: url('../../../resources/icon/poland.svg') 0 50% no-repeat;
+    padding: 0 0 0 30px;
+}
+
+.es.languages-block__label {
+    background: url('../../../resources/icon/spain.svg') 0 50% no-repeat;
+    padding: 0 0 0 30px;
+}
+
+.languages {
+    max-height: 100%;
+    margin-top: 14px;
+
+    &__wrap {
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+
+        &:first-child {
+            margin-top: 10px;
+        }
+
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            top: 25px;
+            right: 10px;
+            width: 8px;
+            height: 1px;
+            background: #000046;
+            transition: all .5s;
+            transform: translate(-3px, -50%) rotate(45deg);
+        }
+
+        &::after {
+            transform: translate(3px, -50%) rotate(-45deg);
+        }
+    }
+
+    &__wrap.active .languages-choice {
+        max-height: 20em;
+    }
+
+    &__wrap.active {
+
+        &::before {
+            transform: translate(-3px, -50%) rotate(-45deg);
+        }
+
+        &::after {
+            transform: translate(3px, -50%) rotate(45deg);
+        }
+    }
+
+    &-block {
+        >span {
+            margin-right: 30px;
+        }
+    }
+}

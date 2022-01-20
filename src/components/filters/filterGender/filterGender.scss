@@ -1,0 +1,36 @@
+.gender {
+    &__container {
+        margin-top: 24px;
+    }
+
+    &__item {
+        display: inline-block;
+        width: 33.3333%;
+
+        &-input {
+            display: none;
+        }
+
+        &-label {
+            display: inline-block;
+            width: 100%;
+            font-size: 14px;
+            line-height: 42px;
+            text-align: center;
+            color: #202020;
+            border: 1px solid #000046;
+            border-right: none;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        &-input:checked+label {
+            background: #000046;
+            color: #FFFFFF;
+        }
+
+        &:last-child label {
+            border-right: 1px solid #000046;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.languages-choice {
+    max-height: 0;
+    padding: 0 35px;
+    display: flex;
+    flex-direction: column;
+    transition: .5s all;
+
+    &-block {
+        margin: 14px 0 0 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__custom {
+            top: 50%;
+            transform: translateY(-50%);
+            width: 16px;
+            height: 16px;
+            border: 1px solid #000046;
+            border-radius: 50%;
+        }
+
+        &__label {
+            margin-left: 25px;
+            display: inline-block;
+            color: #555556;
+        }
+
+        label .custom-checkbox__input:checked+.custom-checkbox__item {
+            background: #000046;
+            box-shadow: 0 0 1px #000046;
+
+            &::after {
+                display: none;
+            }
+        }
+    }
+}

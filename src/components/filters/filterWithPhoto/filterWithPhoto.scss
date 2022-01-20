@@ -1,0 +1,13 @@
+.filters {
+    &-photo {
+        margin-top: 12px;
+        padding: 15px;
+        height: 65px;
+        background: #FDFDFF;
+
+        &__item {
+            padding: 0 0 0 40px;
+            background: url('../../../resources/icon/photo.svg') 6px 50% no-repeat;
+        }
+    }
+}

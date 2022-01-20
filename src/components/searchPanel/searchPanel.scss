@@ -1,0 +1,70 @@
+.searchPanel {
+    padding: 73px 0 60px;
+    margin: 0 auto;
+    max-width: fit-content;
+
+    &__text,
+    &__city {
+        padding: 12px 12px 12px 45px;
+        margin-right: 8px;
+        width: 410px;
+        height: 48px;
+        font-size: 14px;
+        border-radius: 8px;
+        color: #fff;
+        border: none;
+        background: rgba(255, 255, 255, 0.15) url('../../resources/icon/zoom.svg') 12px 50% no-repeat;
+
+        &::placeholder {
+            color: #fff;
+        }
+
+    }
+
+    &__city {
+        width: 205px;
+        height: 48px;
+        background: rgba(255, 255, 255, 0.15)url('../../resources/icon/pin.svg') 12px 50% no-repeat;
+    }
+
+    &__button {
+        width: 199px;
+        height: 48px;
+        background: #FFF9E4;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #303030;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 992px) {
+    .searchPanel {
+
+        &__text {
+            width: 320px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .searchPanel {
+        padding: 20px 0 0;
+
+        &__text,
+        &__city {
+            margin: 12px 0 0;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        &__button {
+            margin-top: 12px;
+            width: 100%;
+
+        }
+    }
+}
