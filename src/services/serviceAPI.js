@@ -11,7 +11,6 @@ export const serviceAPI = () => {
 
     const getAllSummaries = async (photo, currentPage) => {
         const res = await getResource(`http://135.181.30.244:27007/api/summaries/?page=${currentPage}&photo=${photo}`);
-        console.log(res.results.map(transformPerson))
         return await res.results.map(transformPerson);
     }
 
